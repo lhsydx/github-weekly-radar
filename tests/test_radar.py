@@ -124,6 +124,15 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(key, "medical_digital")
         self.assertEqual(label, "医疗数智化")
 
+    def test_unrelated_trending_repository_has_no_category(self):
+        repo = repository(
+            "example/unrelated-design-tool",
+            topics=["design", "css"],
+            description="A visual design system for websites",
+        )
+        repo["matched_categories"] = []
+        self.assertIsNone(radar.classify_repository(repo, self.config))
+
     def test_cold_start_uses_daily_star_average(self):
         young = repository("example/young", stars=200, created_at="2026-07-17T00:00:00Z")
         older = repository("example/older", stars=500, created_at="2026-06-19T00:00:00Z")

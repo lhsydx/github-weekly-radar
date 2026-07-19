@@ -199,7 +199,9 @@ def merge_repository(
         target["sources"].sort()
 
 
-def classify_repository(repo: dict[str, Any], config: dict[str, Any]) -> tuple[str, str]:
+def classify_repository(
+    repo: dict[str, Any], config: dict[str, Any]
+) -> tuple[str, str] | None:
     text = " ".join(
         [repo.get("name", ""), repo.get("description", ""), *repo.get("topics", [])]
     ).lower()
@@ -214,6 +216,8 @@ def classify_repository(repo: dict[str, Any], config: dict[str, Any]) -> tuple[s
         score += sum(1 for keyword in category.get("keywords", []) if keyword.lower() in text)
         scores[key] = score
 
+    if not scores or max(scores.values()) <= 0:
+        return None
     key = max(scores, key=lambda item: (scores[item], priority.get(item, 0)))
     return key, config["categories"][key]["label"]
 
@@ -566,7 +570,10 @@ def collect_candidates(
 
     eligible: list[dict[str, Any]] = []
     for repo in repositories.values():
-        category_key, category_label = classify_repository(repo, config)
+        classification = classify_repository(repo, config)
+        if classification is None:
+            continue
+        category_key, category_label = classification
         repo["category_key"] = category_key
         repo["category"] = category_label
         if is_eligible(repo, config, now):
