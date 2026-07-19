@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "date": "2026-07-19",
-  "generated_at": "2026-07-19T03:48:54.022774Z",
+  "generated_at": "2026-07-19T03:56:06.608515Z",
   "ranking_mode": "cold_start_daily_average",
   "period": {
     "lookback_days": 30,
@@ -17,7 +17,7 @@
     "candidate_count": 600,
     "new_list_count": 10,
     "growth_list_count": 10,
-    "double_ranked_count": 3
+    "double_ranked_count": 4
   },
   "lists": {
     "new_projects_top_stars": [
@@ -55,7 +55,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 149.43,
+        "daily_star_average": 149.39,
         "forks": 218,
         "open_issues": 5,
         "created_at": "2026-06-29T10:49:36Z",
@@ -98,7 +98,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 166.14,
+        "daily_star_average": 166.08,
         "forks": 365,
         "open_issues": 22,
         "created_at": "2026-07-03T15:06:45Z",
@@ -138,7 +138,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 92.6,
+        "daily_star_average": 92.58,
         "forks": 141,
         "open_issues": 0,
         "created_at": "2026-06-30T10:55:02Z",
@@ -174,7 +174,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 139.63,
+        "daily_star_average": 139.58,
         "forks": 238,
         "open_issues": 1,
         "created_at": "2026-07-06T22:35:18Z",
@@ -208,8 +208,8 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 38.55,
-        "forks": 374,
+        "daily_star_average": 38.54,
+        "forks": 375,
         "open_issues": 2,
         "created_at": "2026-06-19T13:24:44Z",
         "updated_at": "2026-07-18T19:04:45Z",
@@ -239,7 +239,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 120.9,
+        "daily_star_average": 120.83,
         "forks": 146,
         "open_issues": 6,
         "created_at": "2026-07-10T04:13:51Z",
@@ -248,7 +248,7 @@
         "sources": [
           "topic:llm:recent"
         ],
-        "double_ranked": false
+        "double_ranked": true
       },
       {
         "rank": 7,
@@ -270,15 +270,15 @@
           "llm-tools",
           "managed-agents"
         ],
-        "stars": 1069,
+        "stars": 1070,
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 50.89,
+        "daily_star_average": 50.92,
         "forks": 114,
         "open_issues": 10,
         "created_at": "2026-06-28T03:39:34Z",
-        "updated_at": "2026-07-19T03:29:34Z",
+        "updated_at": "2026-07-19T03:49:43Z",
         "pushed_at": "2026-07-19T02:39:22Z",
         "sources": [
           "topic:llm:recent"
@@ -309,7 +309,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 42.22,
+        "daily_star_average": 42.21,
         "forks": 102,
         "open_issues": 4,
         "created_at": "2026-06-24T02:20:56Z",
@@ -344,7 +344,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 59.89,
+        "daily_star_average": 59.88,
         "forks": 17,
         "open_issues": 0,
         "created_at": "2026-07-02T14:43:11Z",
@@ -379,7 +379,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 44.26,
+        "daily_star_average": 44.25,
         "forks": 154,
         "open_issues": 0,
         "created_at": "2026-06-28T04:38:07Z",
@@ -414,15 +414,15 @@
           "prompt-engineering",
           "yagni"
         ],
-        "stars": 85635,
+        "stars": 85636,
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 2306.83,
+        "daily_star_average": 2306.54,
         "forks": 4667,
         "open_issues": 85,
         "created_at": "2026-06-12T00:52:37Z",
-        "updated_at": "2026-07-19T03:42:03Z",
+        "updated_at": "2026-07-19T03:57:14Z",
         "pushed_at": "2026-07-15T21:32:15Z",
         "sources": [
           "topic:developer-tools:active",
@@ -462,12 +462,12 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 307.06,
+        "daily_star_average": 307.04,
         "forks": 1736,
-        "open_issues": 1259,
+        "open_issues": 1257,
         "created_at": "2026-04-21T08:27:02Z",
-        "updated_at": "2026-07-19T03:44:42Z",
-        "pushed_at": "2026-07-18T14:22:05Z",
+        "updated_at": "2026-07-19T03:53:12Z",
+        "pushed_at": "2026-07-19T03:53:08Z",
         "sources": [
           "topic:ai-agent:active",
           "topic:developer-tools:active"
@@ -497,7 +497,7 @@
           "swiss-design",
           "web-ppt"
         ],
-        "stars": 21757,
+        "stars": 21758,
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
@@ -505,7 +505,7 @@
         "forks": 1590,
         "open_issues": 27,
         "created_at": "2026-04-23T13:23:07Z",
-        "updated_at": "2026-07-19T03:48:05Z",
+        "updated_at": "2026-07-19T03:51:16Z",
         "pushed_at": "2026-06-02T09:53:57Z",
         "sources": [
           "topic:ai-agent:active"
@@ -544,12 +544,12 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 198.53,
-        "forks": 1066,
-        "open_issues": 599,
+        "daily_star_average": 198.51,
+        "forks": 1067,
+        "open_issues": 597,
         "created_at": "2026-06-11T12:18:13Z",
-        "updated_at": "2026-07-19T03:26:08Z",
-        "pushed_at": "2026-07-19T03:26:03Z",
+        "updated_at": "2026-07-19T03:51:27Z",
+        "pushed_at": "2026-07-19T03:51:22Z",
         "sources": [
           "topic:ai-agent:active"
         ],
@@ -586,7 +586,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 166.14,
+        "daily_star_average": 166.08,
         "forks": 365,
         "open_issues": 22,
         "created_at": "2026-07-03T15:06:45Z",
@@ -600,32 +600,6 @@
       },
       {
         "rank": 6,
-        "full_name": "Nutlope/hallmark",
-        "name": "hallmark",
-        "url": "https://github.com/Nutlope/hallmark",
-        "category_key": "medical_digital",
-        "category": "医疗数智化",
-        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-        "language": "CSS",
-        "license": "MIT",
-        "topics": [],
-        "stars": 12898,
-        "previous_stars": null,
-        "weekly_star_delta": null,
-        "weekly_growth_rate": null,
-        "daily_star_average": 156.73,
-        "forks": 644,
-        "open_issues": 20,
-        "created_at": "2026-04-27T20:47:10Z",
-        "updated_at": "2026-07-19T03:49:44Z",
-        "pushed_at": "2026-06-26T10:08:58Z",
-        "sources": [
-          "github_trending_weekly"
-        ],
-        "double_ranked": false
-      },
-      {
-        "rank": 7,
         "full_name": "helloianneo/ian-xiaohei-illustrations",
         "name": "ian-xiaohei-illustrations",
         "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
@@ -643,7 +617,7 @@
           "image-generation",
           "xiaohei"
         ],
-        "stars": 8145,
+        "stars": 8146,
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
@@ -651,7 +625,7 @@
         "forks": 991,
         "open_issues": 15,
         "created_at": "2026-05-27T22:47:56Z",
-        "updated_at": "2026-07-19T03:11:05Z",
+        "updated_at": "2026-07-19T03:51:55Z",
         "pushed_at": "2026-06-03T11:35:43Z",
         "sources": [
           "topic:ai-agent:active"
@@ -659,7 +633,7 @@
         "double_ranked": false
       },
       {
-        "rank": 8,
+        "rank": 7,
         "full_name": "oomol-lab/open-connector",
         "name": "open-connector",
         "url": "https://github.com/oomol-lab/open-connector",
@@ -692,7 +666,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 149.43,
+        "daily_star_average": 149.39,
         "forks": 218,
         "open_issues": 5,
         "created_at": "2026-06-29T10:49:36Z",
@@ -705,7 +679,7 @@
         "double_ranked": true
       },
       {
-        "rank": 9,
+        "rank": 8,
         "full_name": "Sahir619/fable-method",
         "name": "fable-method",
         "url": "https://github.com/Sahir619/fable-method",
@@ -729,7 +703,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 139.63,
+        "daily_star_average": 139.58,
         "forks": 238,
         "open_issues": 1,
         "created_at": "2026-07-06T22:35:18Z",
@@ -741,7 +715,7 @@
         "double_ranked": true
       },
       {
-        "rank": 10,
+        "rank": 9,
         "full_name": "mereyabdenbekuly-ctrl/clodex-ide",
         "name": "clodex-ide",
         "url": "https://github.com/mereyabdenbekuly-ctrl/clodex-ide",
@@ -765,7 +739,7 @@
         "previous_stars": null,
         "weekly_star_delta": null,
         "weekly_growth_rate": null,
-        "daily_star_average": 125.05,
+        "daily_star_average": 124.95,
         "forks": 152,
         "open_issues": 0,
         "created_at": "2026-07-12T10:35:44Z",
@@ -775,6 +749,37 @@
           "topic:developer-tools:recent"
         ],
         "double_ranked": false
+      },
+      {
+        "rank": 10,
+        "full_name": "AlephAITech/WorkBuddyGuide",
+        "name": "WorkBuddyGuide",
+        "url": "https://github.com/AlephAITech/WorkBuddyGuide",
+        "category_key": "ai_agent",
+        "category": "AI与智能体",
+        "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+        "language": "Python",
+        "license": "MIT",
+        "topics": [
+          "codex",
+          "guide",
+          "llm",
+          "workbuddy"
+        ],
+        "stars": 1086,
+        "previous_stars": null,
+        "weekly_star_delta": null,
+        "weekly_growth_rate": null,
+        "daily_star_average": 120.83,
+        "forks": 146,
+        "open_issues": 6,
+        "created_at": "2026-07-10T04:13:51Z",
+        "updated_at": "2026-07-19T02:00:35Z",
+        "pushed_at": "2026-07-15T15:29:25Z",
+        "sources": [
+          "topic:llm:recent"
+        ],
+        "double_ranked": true
       }
     ]
   }
