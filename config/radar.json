@@ -1,0 +1,74 @@
+{
+  "lookback_days": 30,
+  "active_within_days": 90,
+  "top_n": 10,
+  "candidate_limit": 600,
+  "minimum_stars_for_active_search": 50,
+  "search_results_per_query": 60,
+  "search_delay_seconds": 2.1,
+  "include_github_trending": true,
+  "categories": {
+    "ai_agent": {
+      "label": "AI与智能体",
+      "topics": ["llm", "ai-agent", "rag", "mcp"],
+      "keywords": [
+        "artificial intelligence",
+        "generative ai",
+        "large language model",
+        "agent",
+        "rag",
+        "mcp"
+      ]
+    },
+    "medical_digital": {
+      "label": "医疗数智化",
+      "topics": ["healthcare", "medical-ai", "digital-health", "medical-imaging"],
+      "keywords": [
+        "healthcare",
+        "medical",
+        "clinical",
+        "digital health",
+        "medical imaging",
+        "fhir"
+      ]
+    },
+    "productivity_dev": {
+      "label": "效率与开发工具",
+      "topics": ["productivity", "automation", "developer-tools", "low-code"],
+      "keywords": [
+        "productivity",
+        "automation",
+        "workflow",
+        "developer tool",
+        "low code",
+        "knowledge management"
+      ]
+    }
+  },
+  "excluded_name_prefixes": [
+    "awesome-",
+    "awesome_",
+    "awesome."
+  ],
+  "excluded_topics": [
+    "awesome",
+    "awesome-list",
+    "curated-list",
+    "course",
+    "coursework",
+    "interview-questions",
+    "papers",
+    "research-papers",
+    "dataset",
+    "datasets",
+    "model-weights",
+    "mirror"
+  ],
+  "excluded_description_phrases": [
+    "curated list of",
+    "collection of resources",
+    "course assignment",
+    "interview questions",
+    "mirror of"
+  ]
+}
